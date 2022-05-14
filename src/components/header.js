@@ -10,7 +10,7 @@ function Header({ siteTitle }) {
     <nav className="flex flex-wrap items-center justify-between p-6 mb-0 bg-black">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
         <StaticImage
-          src="../images/logo.svg"
+          src="../images/logo-octomob.svg"
           alt="OctoMob"
         />
       </div>
@@ -34,31 +34,56 @@ function Header({ siteTitle }) {
           isExpanded ? `block` : `hidden`
         } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-sm lg:flex-grow">
+        <div className="text-lg lg:flex-end ml-auto">
           <Link
             to={`/`}
             href="#responsive-header"
             className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            Home
+            <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
+              <StaticImage
+                src="../images/logo-medium.svg"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
+            to={`/`}
+            href="#responsive-header"
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
+              <StaticImage
+                src="../images/logo-twitch.svg"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
+            to={`/`}
+            href="#responsive-header"
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
+              <StaticImage
+                src="../images/logo-opensea.svg"
+                alt="OctoMob"
+              />
+            </div>
           </Link>
           <Link
             to={`/page-2`}
             className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            page 2
+            <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
+              <StaticImage
+                src="../images/logo-discord.svg"
+                alt="OctoMob"
+              />
+            </div>
           </Link>
         </div>
-        <div>
-          <a
-            href="https://github.com/kosvrouvas/gatsby-tailwindcss-starter"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-block px-4 py-2 mt-4 text-sm leading-none text-white border border-white rounded hover:border-transparent hover:text-black hover:bg-white lg:mt-0"
-          >
-            Download
-          </a>
-        </div>
+
       </div>
     </nav>
   )

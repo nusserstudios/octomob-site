@@ -29,14 +29,13 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           padding: `0`,
-          backgroundColor: 'black'
         }}
       >
         <main>{children}</main>
-        <footer className="text-white" >
-          © {new Date().getFullYear()}, Built with
+        <footer className="text-white text-center my-8 text-xl" >
+          © {new Date().getFullYear()} • Octomob
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          
         </footer>
       </div>
     </>
