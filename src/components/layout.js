@@ -29,10 +29,11 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           padding: `0`,
+          backgroundColor: 'black'
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer className="text-white" >
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>

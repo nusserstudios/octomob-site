@@ -7,7 +7,7 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-6 mb-6 bg-black">
+    <nav className="flex flex-wrap items-center justify-between p-6 mb-0 bg-black">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
         <StaticImage
           src="../images/logo.svg"
@@ -21,7 +21,7 @@ function Header({ siteTitle }) {
         >
           <svg
             className="w-3 h-3 fill-current"
-            viewBox="0 0 20 20"
+            viewBox="0 0 20 0"
             xmlns="http://www.w3.org/2000/svg"
           >
             <title>Menu</title>
