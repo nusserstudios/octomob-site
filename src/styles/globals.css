@@ -1,6 +1,7 @@
 @tailwind base;
 body {
   @apply bg-black;
+  @apply text-white;
 }
 h1 {
   @apply text-2xl;

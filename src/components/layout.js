@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer className="text-white text-center my-8 text-xl" >
-          © {new Date().getFullYear()} • Octomob
+          © {new Date().getFullYear()} - OctoMob
           {` `}
           
         </footer>
