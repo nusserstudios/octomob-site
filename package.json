@@ -19,7 +19,6 @@
     "gatsby-plugin-sharp": "^4.11.1",
     "gatsby-source-filesystem": "^4.5.2",
     "gatsby-transformer-sharp": "^4.5.0",
-    "gbimage-bridge": "^0.2.1",
     "postcss": "^8.4.5",
     "prop-types": "^15.7.2",
     "react": "^18.0.0",
