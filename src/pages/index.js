@@ -16,19 +16,14 @@ const IndexPage = () => (
         />
       </div>
     </div>
-      <div class="grid grid-cols-3 gap-4 text-white text-center text-2xl">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-2 gap-4 text-white text-center text-2xl">
         <div>01</div>
         <div>02</div>
-        <div>03</div>
-        <div>04</div>
-        <div>05</div>
-        <div>06</div>
-        <div>07</div>
-        <div>08</div>
-        <div>09</div>
       </div>
       <p><Link to="/page-2/">Go to page 2</Link></p>
       <p><Link to="/using-typescript/">Go to "Using TypeScript"</Link></p>
+    </div>
   </Layout>
 )
 
