@@ -1,9 +1,7 @@
 @tailwind base;
-
 body {
   @apply bg-black;
 }
-
 h1 {
   @apply text-2xl;
 }
@@ -16,6 +14,5 @@ h3 {
 a {
   @apply text-blue-600;
 }
-
 @tailwind components;
 @tailwind utilities;

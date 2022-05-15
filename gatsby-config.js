@@ -42,15 +42,6 @@ module.exports = {
         icon: `src/images/mob-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-react-svg`,
-    {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        rule: {
-          include: /\.inline\.svg$/
-        }
-      }
-    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -96,6 +87,6 @@ module.exports = {
         develop: false,
         tailwind: true,
       },
-    }
+    },
   ],
 }

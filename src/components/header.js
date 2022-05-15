@@ -20,7 +20,7 @@ function Header({ siteTitle }) {
           className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-white hover:border-white"
         >
           <svg
-            className="w-3 h-3 fill-current"
+            className="w-3 h-3 fill-white"
             viewBox="0 0 20 0"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -36,9 +36,9 @@ function Header({ siteTitle }) {
       >
         <div className="text-lg lg:flex-end ml-auto">
           <Link
-            to={`/`}
-            href="#responsive-header"
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            to={`https://theoctomobfam.medium.com/`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
               <StaticImage
@@ -48,9 +48,9 @@ function Header({ siteTitle }) {
             </div>
           </Link>
           <Link
-            to={`/`}
-            href="#responsive-header"
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            to={`https://www.twitch.tv/videos/1481348381`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
               <StaticImage
@@ -60,9 +60,9 @@ function Header({ siteTitle }) {
             </div>
           </Link>
           <Link
-            to={`/`}
-            href="#responsive-header"
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            to={`https://opensea.io/collection/the-octomob-family`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
               <StaticImage
@@ -72,8 +72,9 @@ function Header({ siteTitle }) {
             </div>
           </Link>
           <Link
-            to={`/page-2`}
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            to={`https://discord.gg/EPNMXpHWsf`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
               <StaticImage

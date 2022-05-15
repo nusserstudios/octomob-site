@@ -7,6 +7,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.4",
     "gatsby": "^4.11.2",
+    "gatsby-background-image": "^1.6.0",
     "gatsby-plugin-google-analytics": "^4.0.0",
     "gatsby-plugin-image": "^2.5.2",
     "gatsby-plugin-manifest": "^4.11.1",
@@ -18,6 +19,7 @@
     "gatsby-plugin-sharp": "^4.11.1",
     "gatsby-source-filesystem": "^4.5.2",
     "gatsby-transformer-sharp": "^4.5.0",
+    "gbimage-bridge": "^0.2.1",
     "postcss": "^8.4.5",
     "prop-types": "^15.7.2",
     "react": "^18.0.0",

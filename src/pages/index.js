@@ -8,10 +8,10 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div class="bg-gradient-to-r from-purple-500 to-pink-500 flex justify-center items-center align-top py-8">
-      <div style={{ maxWidth: `2000px`, margin: `0 1rem` }}>
+    <div class="flex justify-center items-center align-top py-8">
+      <div style={{margin: `0 0 20px` }}>
         <StaticImage
-          src="../images/mob-logo-hero.svg"
+          src="../images/octomob-home-hero.png"
           alt="OctoMob"
         />
       </div>
@@ -27,6 +27,8 @@ const IndexPage = () => (
         <div>08</div>
         <div>09</div>
       </div>
+      <p><Link to="/page-2/">Go to page 2</Link></p>
+      <p><Link to="/using-typescript/">Go to "Using TypeScript"</Link></p>
   </Layout>
 )
 
