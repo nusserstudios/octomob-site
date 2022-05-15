@@ -20,8 +20,8 @@ function Header({ siteTitle }) {
           className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-white hover:border-white"
         >
           <svg
-            className="w-3 h-3 fill-white"
-            viewBox="0 0 20 0"
+            className="w-3 h-3 fill-current"
+            viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
             <title>Menu</title>
