@@ -56,7 +56,7 @@ const IndexPage = () => (
         <div class="md:pl-8">
           <h2 class="uppercase text-5xl pb-4 font-black">Upcoming Mint: Hitmen</h2>
           <p class="leading-8">We are proud to announce "The OctoMob Hitmen" collection. This collection will be a series of 777 generative NFT PFP's. Our Partenerships include: Concave, Olympus Odyssey, Bad Bitches, Anata NFT, and more. Currently we have not set a date for the mint, but keep an eye on our Discord and Twitter for alfa on the drop.</p>
-          <p class="leading-8 pt-3 ">We are excited to bring in new members to the family. We welcome you, and hope you will enjoy building the fam, and build an exciing community as we work together to make Web3 and the metaverse the decentralized and open community that it should be. Our vision is to work with the family to build something special in both the short and long term.</p>
+          <p class="leading-8 pt-3 ">We are excited to bring in new members to the family. We welcome you, and hope you will enjoy building the fam, and build an amazing community as we work together to make Web3 and the metaverse the decentralized and open community that it should be. Our vision is to work with the family to build something special in both the short and long term.</p>
           <p class="leading-8 pt-3 ">Coming Soon. Be on the lookout and become a part of the OctoMob family.</p>
         </div>
       </div>
