@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="OctoMob Family NFT" />
     
     <div class="flex justify-center items-center align-top">
       <div style={{margin: `0px` }}>
