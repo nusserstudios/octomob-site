@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `octomob-site`,
+        short_name: `site`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#663399`,
@@ -64,7 +64,7 @@ module.exports = {
         // Set Variation ID. 0 for original 1,2,3....
         variationId: "G-6TDKCQFGQ5",
         // Defers execution of google analytics script after page load
-        defer: false,
+        defer: true,
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
