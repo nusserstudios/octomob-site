@@ -62,8 +62,6 @@ module.exports = {
         enableWebVitalsTracking: true,
         // Defaults to https://www.googletagmanager.com
         selfHostedOrigin: "https://octomob.xyz",
-
-        enableWebVitalsTracking: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
