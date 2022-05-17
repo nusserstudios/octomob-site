@@ -43,32 +43,27 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "G-6TDKCQFGQ5",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
-        // Enables Google Optimize using your container Id
-        optimizeId: "G-6TDKCQFGQ5",
-        // Enables Google Optimize Experiment ID
-        experimentId: "G-6TDKCQFGQ5",
-        // Set Variation ID. 0 for original 1,2,3....
-        variationId: "G-6TDKCQFGQ5",
-        // Defers execution of google analytics script after page load
-        defer: true,
-        // Any additional optional fields
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "octomob.xyz",
+        id: "G-6TDKCQFGQ5",
+  
+        // Include GTM in development.
+        //
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+  
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        //
+        // Defaults to null
+        defaultDataLayer: { platform: "gatsby" },
+
+        // Defaults to false
+        enableWebVitalsTracking: true,
+        // Defaults to https://www.googletagmanager.com
+        selfHostedOrigin: "https://octomob.xyz",
+
+        enableWebVitalsTracking: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
