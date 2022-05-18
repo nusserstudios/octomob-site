@@ -88,7 +88,7 @@ const IndexPage = () => (
             class="rounded-lg border-solid border-2 border-gray-600 mb-6"
           />
           <StaticImage
-            src="../images/events-mob.png"
+            src="../images/events-board-room.png"
             alt="OctoMob Event Hosting - OctoMob Board Room"
             class="rounded-lg border-solid border-2 border-gray-600"
           />
