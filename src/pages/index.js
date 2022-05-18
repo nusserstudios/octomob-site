@@ -36,17 +36,17 @@ const IndexPage = () => (
           <div class="flex">
             <div class="mx-auto">
               <a href="https://opensea.io/collection/the-octomob-family" target="_blank" rel="noreferrer" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800" diabled>
-                  <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
-                    OpenSea
-                  </span>
-                </a> 
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
+                  OpenSea
+                </span>
+              </a>
             </div>
-          </div>          
+          </div>
         </div>
         <div class="md:pl-8">
-          <h2 class="uppercase text-5xl pb-4 font-black">Genesis Collection: (OG's) MADEMEN</h2>
-          <p class="leading-8">The OctoMob OG Collection is max supply of 99 NFT's that are the backbone of our community - "Made Men".  Our Made Men collection is a combination of Hand picked Custom NFT's, Custom Partner themed NFT's & HandDrawn OctoMobsters whos lore spreads far beyond the depths of the omniverse   There will be Made Men auctioned OpenSea, or you can contact us and will will create a custom OG "Made Man" just for you to diamond hand as long as you want. The Family is excited to see who rises to the top.</p>
-          <p class="pt-3 leading-8">Each OG OctoMob NFT will include claimable airdrops twice over each follow on collection. One of these airdrops must be given/traded/sold to a trusted member to join the Family ranks.  We like to call if Proof of Trust.  With combining Proof of Trust w/ Proof of Work, HitMen & subsequent drops will have the opportunity to move up the ranks through some very cool, cutting edge ideas that will be laid out soon (devs???) & certainly will not include any MobCoins that can be used in our First of its kind - Metaverse Casino/Sportsbook.  We can't drop too much alfa, but OG's always eat first.</p>
+          <h2 class="uppercase text-5xl pb-4 font-black md:pt-10">Genesis Collection: (OG's) MadeMen</h2>
+          <p class="leading-8">The OctoMob OG Collection is max supply of 99 NFT's that are the backbone of our community - "Made Men". Our Made Men collection is a combination of Hand picked Custom NFT's, Custom Partner themed NFT's & HandDrawn OctoMobsters whos lore spreads far beyond the depths of the omniverse  There will be Made Men auctioned OpenSea, or you can contact us and will will create a custom OG "Made Man" just for you to diamond hand as long as you want. The Family is excited to see who rises to the top.</p>
+          <p class="pt-3 leading-8">Each OG OctoMob NFT will include claimable airdrops twice over each follow on collection. One of these airdrops must be given/traded/sold to a trusted member to join the Family ranks. We like to call if Proof of Trust. With combining Proof of Trust w/ Proof of Work, HitMen & subsequent drops will have the opportunity to move up the ranks through some very cool, cutting edge ideas that will be laid out soon (devs???) & certainly will not include any MobCoins that can be used in our First of its kind - Metaverse Casino/Sportsbook. We can't drop too much alfa, but OG's always eat first.</p>
           <p class="pt-3 leading-8">Connect with the DonFather to arrange your custom PFP, while you still have a shot paisan.</p>
         </div>
       </div>
@@ -63,17 +63,17 @@ const IndexPage = () => (
           <div class="flex items-center">
             <div class="mx-auto">
               <button disabled class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-orange-500 to-yellow-500 group-hover:from-orange-500 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-orange-200 dark:focus:ring-orange-800">
-                  <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
-                    Mint - Coming Soon
-                  </span>
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
+                  Mint - Coming Soon
+                </span>
               </button>
             </div>
-          </div>          
+          </div>
         </div>
         <div class="md:pl-8 md:pt-16">
-          <h2 class="uppercase text-5xl pb-4 font-black">UPCOMING MINT: HITMEN</h2>
-          <p class="leading-8">We are proud to announce "The OctoMob Hitmen" collection. This collection will be a series of 777 generative NFT PFP's.  HitMen will join The Family with utility from day 1 - Family.  Claimable airdrops.  Custom Merch. An opportunity to move up the ranks (certainly not a MobToken)  and eat like an OG.</p>
-          <p class="leading-8 pt-3 ">We are excited to bring on new members to the family. We welcome you, and hope you will enjoy building the fam, and building an amazing community as we work together venturing into a fully operational Web3 metaverse that will CERTAINLY not include poker/cards/sports/e-sports.  What happens in The Family stays in The Family.  We will never give financial advice but we do like to keep a tight knit group who backs each other. </p>
+          <h2 class="uppercase text-5xl pb-4 font-black">Upcoming Mint: Hitmen</h2>
+          <p class="leading-8">We are proud to announce "The OctoMob Hitmen" collection. This collection will be a series of 777 generative NFT PFP's. HitMen will join The Family with utility from day 1 - Family. Claimable airdrops. Custom Merch. An opportunity to move up the ranks (certainly not a MobToken) and eat like an OG.</p>
+          <p class="leading-8 pt-3 ">We are excited to bring on new members to the family. We welcome you, and hope you will enjoy building the fam, and building an amazing community as we work together venturing into a fully operational Web3 metaverse that will CERTAINLY not include poker/cards/sports/e-sports. What happens in The Family stays in The Family. We will never give financial advice but we do like to keep a tight knit group who backs each other. </p>
           <p class="leading-8 pt-3 ">Coming Soon. Be on the lookout and become a part of the OctoMob family.</p>
         </div>
       </div>
@@ -94,9 +94,9 @@ const IndexPage = () => (
           />
         </div>
         <div class="md:pl-8 md:pt-24">
-          <h2 class="uppercase text-5xl pb-4 font-black">METAVERSE EVENT HOSTING</h2>
-          <p class="leading-8">Need a digital space for your community? Existing projects, New projects, Those looking to give their community a true Metaverse experience, we have an offer you can't refuse. Our extensive partnerships have allowed us to control the event space like we do the unions.  You tell us what you need, & we'll make it happen.  No questions asked.  We even have a Zen Yoga studio in our space to keep our minds sharp.</p>
-          <p class="leading-8 pt-3 ">The OctoCave & VIP Board Room will allow you to host both public and private events. Whether looking for a Metaverse AMA, A launch party, A community event, etc... We can host all of these w/ giveaways, poker tournaments, auctions, karaoke, or streaming a PPV event for your community to chill & watch, The OctoMob can make it happen.  An event w/ a live DJ set? Done.  Leave planning and scheduling your event up to us in our exclusive Metaverse locations in ConcaveWorld.</p>
+          <h2 class="uppercase text-5xl pb-4 font-black">Metaverse Event Hosting</h2>
+          <p class="leading-8">Need a digital space for your community? Existing projects, New projects, Those looking to give their community a true Metaverse experience, we have an offer you can't refuse. Our extensive partnerships have allowed us to control the event space like we do the unions. You tell us what you need, & we'll make it happen. No questions asked. We even have a Zen Yoga studio in our space to keep our minds sharp.</p>
+          <p class="leading-8 pt-3 ">The OctoCave & VIP Board Room will allow you to host both public and private events. Whether looking for a Metaverse AMA, A launch party, A community event, etc... We can host all of these w/ giveaways, poker tournaments, auctions, karaoke, or streaming a PPV event for your community to chill & watch, The OctoMob can make it happen. An event w/ a live DJ set? Done. Leave planning and scheduling your event up to us in our exclusive Metaverse locations in ConcaveWorld.</p>
           <p class="leading-8 pt-3 ">Our Casino gives options to your community, and we will assist keeping vibes strong while you give your community the low-down with the latest happenings on your project. You focus on getting your content out there while we focus on throwing a bash your community will be talking about until we see you again.</p>
           <p class="leading-8 pt-3 ">Let's get the good vibes going, and a place where we can all get together and enjoy DeFi and NFT's in the Metaverse.</p>
         </div>
@@ -119,10 +119,10 @@ const IndexPage = () => (
         <div class="flex mx-auto mt-6">
           <div class="bg-gradient-to-b from-black to-transparent p-8 border-solid border-2 border-white-400 rounded-lg max-w-screen-xl m-4">
             <h2 class="uppercase text-5xl pb-4 font-black drop-shadow text-center">Mob Ties AnataCast</h2>
-            <p class="leading-7 text-lg mb-6 text-center">MobTies AnataCast, is OctoMob's new weekly vCast. Come kick it with Hosts & Members of The OctoMob Family, lilbobross and Mad Matty, covering everything crypto, gaming, blockchain tech, decentralized finance, NFT's, & much more.  The OctoMob Family being at the center of it all.</p>
-            <p class="leading-7 text-lg mb-6 text-center">As we've been defining & growing our community, we noticed a pattern - those who joined The Family - were leaders/buildors/creators/investors & founders!  What better way to continue to attract members, than to support our community & build each other up.</p>
-            <p class="leading-7 text-lg mb-6 text-center">One of the first Honorary members of The OctoMob was DCFGod, Co-Founder of the Anata NFT project.   In turn, DCF was our first guest on MobTies, and our defining principles showed through - Supporting The Family.</p>
-            <p class="leading-7 text-lg mb-6 text-center">MobTies will be running on Wednesdays every week.  If you are a buildooor, or would like to be on the show, reach out to TheDonFather and we will look to get you on. If you're interested in contributing reach out, we would love to work with you. Let us know, as our guest list is filling up rather quickly.</p>
+            <p class="leading-7 text-lg mb-6 text-center">MobTies AnataCast, is OctoMob's new weekly vCast. Come kick it with Hosts & Members of The OctoMob Family, lilbobross and Mad Matty, covering everything crypto, gaming, blockchain tech, decentralized finance, NFT's, & much more. The OctoMob Family being at the center of it all.</p>
+            <p class="leading-7 text-lg mb-6 text-center">As we've been defining & growing our community, we noticed a pattern - those who joined The Family - were leaders/buildors/creators/investors & founders! What better way to continue to attract members, than to support our community & build each other up.</p>
+            <p class="leading-7 text-lg mb-6 text-center">One of the first Honorary members of The OctoMob was DCFGod, Co-Founder of the Anata NFT project. In turn, DCF was our first guest on MobTies, and our defining principles showed through - Supporting The Family.</p>
+            <p class="leading-7 text-lg mb-6 text-center">MobTies will be running on Wednesdays every week. If you are a buildooor, or would like to be on the show, reach out to TheDonFather and we will look to get you on. If you're interested in contributing reach out, we would love to work with you. Let us know, as our guest list is filling up rather quickly.</p>
             <div class="flex items-center">
               <div class="mx-auto">
                 <a href="https://www.twitch.tv/videos/1481348381?collection=47fzRHoy7hZWYA" target="_blank" rel="noreferrer" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
