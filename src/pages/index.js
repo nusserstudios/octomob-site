@@ -33,6 +33,15 @@ const IndexPage = () => (
             alt="OctoMob Made Men Logo"
             class="rounded-lg"
           />
+          <div class="flex items-center">
+            <div class="mx-auto">
+              <a href="https://opensea.io/collection/the-octomob-family" target="_blank" rel="noreferrer" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-orange-500 to-yellow-500 group-hover:from-orange-500 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-orange-200 dark:focus:ring-orange-800">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
+                  OpenSea
+                </span>
+              </a>
+            </div>
+          </div>          
         </div>
         <div class="md:pl-8">
           <h2 class="uppercase text-5xl pb-4 font-black">Genesis Collection: (OG's) MADEMEN</h2>
@@ -51,6 +60,12 @@ const IndexPage = () => (
             alt="OctoMob"
             class="rounded-lg"
           />
+          <div class="flex items-center">
+            <div class="mx-auto">
+            <button type="button" class="px-8 py-3 text-4xl relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-orange-500 to-yellow-500 group-hover:from-orange-500 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-orange-200 dark:focus:ring-orange-800" disabled>Mint</button>
+              <p class="leading-8 text-center">Coming Soon!</p>              
+            </div>
+          </div>          
         </div>
         <div class="md:pl-8">
           <h2 class="uppercase text-5xl pb-4 font-black">UPCOMING MINT: HITMEN</h2>
