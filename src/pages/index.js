@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -198,11 +199,119 @@ const IndexPage = () => (
     </div>
 
     <div class="bg-gradient-to-b from-zinc-900 to-black">
-      <div class="container mx-auto pt-9 pb-4">
-        <h2 class="uppercase text-5xl pb-4 font-black text-center align-middle">Partnerships</h2>
-        <p class="leading-8 text-center">Coming Soon...</p>
+      <div class="container max-w-lg grid-col-3 mx-auto items-center pt-9 pb-4">
+        <h2 class="uppercase text-5xl pb-8 font-black text-center align-middle">Partnerships</h2>
+        <Link
+            to={`https://concave.lol`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `200px` }}>
+              <StaticImage
+                src="../images/logo-concave.png"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
+            to={`https://app.gather.town/app/eEbXVOGSXhce8NCw/ConcaveCommunity`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `200px` }}>
+              <StaticImage
+                src="../images/logo-concave_world.png"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
+            to={`https://linktr.ee/anatanft`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `200px` }}>
+              <StaticImage
+                src="../images/logo-anata.png"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
+            to={`https://twitter.com/BadBitchesDAO`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `200px` }}>
+              <StaticImage
+                src="../images/logo-bad_bitches_dao.png"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
+            to={`https://twitter.com/OdysseyOlympus`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `200px` }}>
+              <StaticImage
+                src="../images/logo-odyssey.png"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
+            to={`https://www.redactedcartel.xyz/`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `200px` }}>
+              <StaticImage
+                src="../images/logo-redacted.png"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
+            to={`https://twitter.com/Supersneakybois`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `200px` }}>
+              <StaticImage
+                src="../images/logo-super_sneaky_bois.png"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
+            to={`https://tracer.finance/`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `200px` }}>
+              <StaticImage
+                src="../images/logo-tracer_dao.png"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
+            to={`https://twitter.com/AlphawolvesDAO`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `200px` }}>
+              <StaticImage
+                src="../images/logo-alpha_wolves_dao.png"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>                            
+
       </div>
-    </div>    
+    </div>
 
     <div class="flex items-center">
       <div class="mx-auto pt-8 px-4">
