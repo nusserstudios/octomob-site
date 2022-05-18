@@ -27,19 +27,19 @@ const IndexPage = () => (
 
     <div class="container mx-auto pt-14 px-4">
       <div class="flex flex-row text-gray-300 grid md:grid-cols-2 grid-cols-1 gap-4">
-        <div>
+        <div class="items-center self-center">
           <StaticImage
-            src="../images/made-men-logo.png"
+            src="../images/made-men-logo.svg"
             alt="OctoMob Made Men Logo"
             class="rounded-lg"
           />
-          <div class="flex items-center">
+          <div class="flex">
             <div class="mx-auto">
-              <a href="https://opensea.io/collection/the-octomob-family" target="_blank" rel="noreferrer" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-orange-500 to-yellow-500 group-hover:from-orange-500 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-orange-200 dark:focus:ring-orange-800">
-                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
-                  OpenSea
-                </span>
-              </a>
+              <a href="https://opensea.io/collection/the-octomob-family" target="_blank" rel="noreferrer" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800" diabled>
+                  <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
+                    OpenSea
+                  </span>
+                </a> 
             </div>
           </div>          
         </div>
@@ -62,12 +62,15 @@ const IndexPage = () => (
           />
           <div class="flex items-center">
             <div class="mx-auto">
-            <button type="button" class="px-8 py-3 text-4xl relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-orange-500 to-yellow-500 group-hover:from-orange-500 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-orange-200 dark:focus:ring-orange-800" disabled>Mint</button>
-              <p class="leading-8 text-center">Coming Soon!</p>              
+              <button disabled class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-orange-500 to-yellow-500 group-hover:from-orange-500 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-orange-200 dark:focus:ring-orange-800">
+                  <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
+                    Mint - Coming Soon
+                  </span>
+              </button>
             </div>
           </div>          
         </div>
-        <div class="md:pl-8">
+        <div class="md:pl-8 md:pt-16">
           <h2 class="uppercase text-5xl pb-4 font-black">UPCOMING MINT: HITMEN</h2>
           <p class="leading-8">We are proud to announce "The OctoMob Hitmen" collection. This collection will be a series of 777 generative NFT PFP's.  HitMen will join The Family with utility from day 1 - Family.  Claimable airdrops.  Custom Merch. An opportunity to move up the ranks (certainly not a MobToken)  and eat like an OG.</p>
           <p class="leading-8 pt-3 ">We are excited to bring on new members to the family. We welcome you, and hope you will enjoy building the fam, and building an amazing community as we work together venturing into a fully operational Web3 metaverse that will CERTAINLY not include poker/cards/sports/e-sports.  What happens in The Family stays in The Family.  We will never give financial advice but we do like to keep a tight knit group who backs each other. </p>
@@ -80,12 +83,17 @@ const IndexPage = () => (
       <div class="flex flex-row text-gray-300 grid md:grid-cols-2 grid-cols-1 gap-4">
         <div class="self-center">
           <StaticImage
+            src="../images/events-casino.png"
+            alt="OctoMob Event Hosting - Casino"
+            class="rounded-lg border-solid border-2 border-gray-600 mb-6"
+          />
+          <StaticImage
             src="../images/events-mob.png"
-            alt="OctoMob Event Hosting"
+            alt="OctoMob Event Hosting - OctoMob Board Room"
             class="rounded-lg border-solid border-2 border-gray-600"
           />
         </div>
-        <div class="md:pl-8">
+        <div class="md:pl-8 md:pt-24">
           <h2 class="uppercase text-5xl pb-4 font-black">METAVERSE EVENT HOSTING</h2>
           <p class="leading-8">Need a digital space for your community? Existing projects, New projects, Those looking to give their community a true Metaverse experience, we have an offer you can't refuse. Our extensive partnerships have allowed us to control the event space like we do the unions.  You tell us what you need, & we'll make it happen.  No questions asked.  We even have a Zen Yoga studio in our space to keep our minds sharp.</p>
           <p class="leading-8 pt-3 ">The OctoCave & VIP Board Room will allow you to host both public and private events. Whether looking for a Metaverse AMA, A launch party, A community event, etc... We can host all of these w/ giveaways, poker tournaments, auctions, karaoke, or streaming a PPV event for your community to chill & watch, The OctoMob can make it happen.  An event w/ a live DJ set? Done.  Leave planning and scheduling your event up to us in our exclusive Metaverse locations in ConcaveWorld.</p>
@@ -226,7 +234,7 @@ const IndexPage = () => (
           >
             <StaticImage
               src="../images/logo-concave.png"
-              alt="OctoMob"
+              alt="Concave"
             />
           </Link>
         </div>
@@ -238,7 +246,7 @@ const IndexPage = () => (
           >
             <StaticImage
               src="../images/logo-concave_world.png"
-              alt="OctoMob"
+              alt="Concave World"
             />
           </Link>
         </div>
@@ -250,7 +258,7 @@ const IndexPage = () => (
           >
             <StaticImage
               src="../images/logo-anata.png"
-              alt="OctoMob"
+              alt="Anata"
             />
           </Link>
         </div>
@@ -262,7 +270,7 @@ const IndexPage = () => (
           >
             <StaticImage
               src="../images/logo-bad_bitches_dao.png"
-              alt="OctoMob"
+              alt="Bad Bitches DAO"
             />
           </Link>
         </div>
@@ -274,7 +282,7 @@ const IndexPage = () => (
           >
             <StaticImage
               src="../images/logo-odyssey.png"
-              alt="OctoMob"
+              alt="Olympus Odyssey"
             />
           </Link>
         </div>
@@ -286,7 +294,7 @@ const IndexPage = () => (
           >
             <StaticImage
               src="../images/logo-redacted.png"
-              alt="OctoMob"
+              alt="Redacted Cartel"
             />
           </Link>
         </div>
@@ -298,7 +306,7 @@ const IndexPage = () => (
           >
             <StaticImage
               src="../images/logo-super_sneaky_bois.png"
-              alt="OctoMob"
+              alt="Sneaky Bois"
             />
           </Link>
         </div>
@@ -310,7 +318,7 @@ const IndexPage = () => (
           >
             <StaticImage
               src="../images/logo-tracer_dao.png"
-              alt="OctoMob"
+              alt="Tracer DAO"
             />
           </Link>
         </div>
@@ -322,7 +330,7 @@ const IndexPage = () => (
           >
             <StaticImage
               src="../images/logo-alpha-wolf-dao.svg"
-              alt="OctoMob"
+              alt="Alpha Wolves DAO"
             />
           </Link>
         </div>
