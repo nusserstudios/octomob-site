@@ -197,6 +197,13 @@ const IndexPage = () => (
       </div>
     </div>
 
+    <div class="bg-gradient-to-b from-zinc-900 to-black">
+      <div class="container mx-auto pt-9 pb-4">
+        <h2 class="uppercase text-5xl pb-4 font-black text-center align-middle">Partnerships</h2>
+        <p class="leading-8 text-center">Coming Soon...</p>
+      </div>
+    </div>    
+
     <div class="flex items-center">
       <div class="mx-auto pt-8 px-4">
           <StaticImage

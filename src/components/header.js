@@ -83,8 +83,19 @@ function Header({ siteTitle }) {
               />
             </div>
           </Link>
-        </div>
-
+          <Link
+            to={`https://twitter.com/TheOctomobFam`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
+              <StaticImage
+                src="../images/logo-twitter.png"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+	</div>  
       </div>
     </nav>
   )
