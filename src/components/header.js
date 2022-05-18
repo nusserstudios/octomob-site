@@ -30,9 +30,8 @@ function Header({ siteTitle }) {
         </button>
       </div>
       <div
-        className={`${
-          isExpanded ? `block` : `hidden`
-        } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
+        className={`${isExpanded ? `block` : `hidden`
+          } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
         <div className="text-lg lg:flex-end ml-auto">
           <Link
@@ -72,6 +71,18 @@ function Header({ siteTitle }) {
             </div>
           </Link>
           <Link
+            to={`https://twitter.com/TheOctomobFam`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
+              <StaticImage
+                src="../images/logo-twitter.svg"
+                alt="OctoMob"
+              />
+            </div>
+          </Link>
+          <Link
             to={`https://discord.gg/EPNMXpHWsf`}
             target={`_blank`}
             className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
@@ -83,19 +94,7 @@ function Header({ siteTitle }) {
               />
             </div>
           </Link>
-          <Link
-            to={`https://twitter.com/TheOctomobFam`}
-            target={`_blank`}
-            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
-          >
-            <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
-              <StaticImage
-                src="../images/logo-twitter.png"
-                alt="OctoMob"
-              />
-            </div>
-          </Link>
-	</div>  
+        </div>
       </div>
     </nav>
   )
