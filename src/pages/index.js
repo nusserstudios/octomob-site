@@ -26,7 +26,7 @@ const IndexPage = () => (
     </div>
 
     <div class="container mx-auto pt-14 px-4">
-      <div class="flex flex-row text-gray-300 grid md:grid-cols-2 grid-cols-1 gap-4">
+      <div class="flex items-center flex-row text-gray-300 grid md:grid-cols-2 grid-cols-1 gap-4">
         <div class="items-center self-center">
           <StaticImage
             src="../images/made-men-logo.svg"
