@@ -224,8 +224,8 @@ const IndexPage = () => (
     <div class="bg-gradient-to-b from-zinc-900 to-black">
       <h2 class="uppercase text-5xl py-8 font-black text-center align-middle">Partnerships</h2>
     </div>
-    <div class="container max-w-4xl mx-auto py-14">
-      <div class="grid md:grid-cols-3 grid-cols-2 gap-4">
+    <div class="container max-w-4xl mx-auto py-6">
+      <div class="grid md:grid-cols-5 grid-cols-2 gap-4">
         <div class="item-center">
           <Link
             to={`https://concave.lol`}
@@ -319,6 +319,18 @@ const IndexPage = () => (
             <StaticImage
               src="../images/logo-tracer_dao.png"
               alt="Tracer DAO"
+            />
+          </Link>
+        </div>
+        <div class="item-center">
+          <Link
+            to={`https://vault.cityroots.io/collection/the-octo-mob-family/reviews`}
+            target={`_blank`}
+            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            <StaticImage
+              src="../images/logo-cityroots-vault.png"
+              alt="City Roots Vault"
             />
           </Link>
         </div>
