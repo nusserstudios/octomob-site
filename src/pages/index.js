@@ -174,7 +174,7 @@ const IndexPage = () => (
         <h2 class="uppercase text-5xl pb-4 font-black text-center align-middle">The OctoMob Team</h2>
       </div>
     </div>
-    <div class="flex">
+    <div class="flex md:pb-8">
       <div class="grid md:grid-cols-3 grid-cols-1 gap-4 mx-auto max-w-screen-2xl p-4">
         <div class="items-center text-center">
           <StaticImage
