@@ -3,7 +3,7 @@ module.exports = {
     title: `OctoMob`,
     description: `The Family spawned out of the idea that not one human nor alien can make it in this world alone. A Family that sticks together, eats together.`,
     author: `@theoctomobfam`,
-    image: `src/images/octomob-home-hero.png`,
+    image: `/src/octomob-home-hero.png`,
   },
   flags: {
     THE_FLAG: false
