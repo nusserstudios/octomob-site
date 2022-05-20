@@ -5,7 +5,7 @@ module.exports = {
     description:
       "The Family spawned out of the idea that not one human nor alien can make it in this world alone. A Family that sticks together, eats together.",
     url: "https://octomob.xyz", // No trailing slash allowed!
-    image: "/src/octomob-home-hero.png", // Path to the image placed in the 'static' folder, in the project's root directory.
+    image: "/static/octomob-home-hero.png", // Path to the image placed in the 'static' folder, in the project's root directory.
     twitterUsername: "@theoctomobfam",
   },
   flags: {
