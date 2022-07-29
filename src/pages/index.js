@@ -3,11 +3,11 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import PageSEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="OctoMob Family NFT" />
+    <PageSEO title="OctoMob Family NFT" />
 
     <div class="flex justify-center items-center align-top">
       <div style={{ margin: `0px` }}>
