@@ -204,20 +204,6 @@ const IndexPage = () => (
             </span>
           </a>
         </div>
-        <div class="items-center text-center">
-          <StaticImage
-            src="../images/profile-noosh.png"
-            alt="Noosh"
-            class="rounded-lg border-solid border-2 border-gray-600"
-          />
-          <h2 class="text-center font-light mt-6 mb-4 text-3xl">Dev</h2>
-          <h3 class="text-center font-extrabold mb-6 text-3xl">Noosh</h3>
-          <a href="https://twitter.com/nooshzilla" target="_blank" rel="noreferrer" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
-              Follow Now
-            </span>
-          </a>
-        </div>
       </div>
     </div>
 
@@ -295,18 +281,6 @@ const IndexPage = () => (
             <StaticImage
               src="../images/logo-redacted.png"
               alt="Redacted Cartel"
-            />
-          </Link>
-        </div>
-        <div class="item-center">
-          <Link
-            to={`https://twitter.com/Supersneakybois`}
-            target={`_blank`}
-            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
-          >
-            <StaticImage
-              src="../images/logo-super_sneaky_bois.png"
-              alt="Sneaky Bois"
             />
           </Link>
         </div>
