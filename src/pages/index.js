@@ -72,7 +72,7 @@ const IndexPage = () => (
         </div>
         <div class="md:pl-8 md:pt-16">
           <h2 class="uppercase text-5xl pb-4 font-black">Upcoming Mint: Hitmen</h2>
-          <p class="leading-8">We are proud to announce "The OctoMob Hitmen" collection. This collection will be a series of 777 generative NFT PFP's. HitMen will join The Family with utility from day 1 - Family. Claimable airdrops. Custom Merch. An opportunity to move up the ranks (certainly not a MobToken) and eat like an OG.</p>
+          <p class="leading-8">We are proud to announce "The OctoMob Hitmen" collection. This collection will be a series of 999 generative NFT PFP's. HitMen will join The Family with utility from day 1 - Family. Claimable airdrops. Custom Merch. An opportunity to move up the ranks (certainly not a MobToken) and eat like an OG.</p>
           <p class="leading-8 pt-3 ">We are excited to bring on new members to the family. We welcome you, and hope you will enjoy building the fam, and building an amazing community as we work together venturing into a fully operational Web3 metaverse that will CERTAINLY not include poker/cards/sports/e-sports. What happens in The Family stays in The Family. We will never give financial advice but we do like to keep a tight knit group who backs each other. </p>
           <p class="leading-8 pt-3 ">Coming Soon. Be on the lookout and become a part of the OctoMob family.</p>
         </div>
@@ -102,72 +102,6 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div class="bg-gradient-to-t from-zinc-900 to-black">
-      <div class="container mx-auto py-7">
-        <h2 class="uppercase text-5xl pb-4 font-black text-center align-middle">New Weekly vCasts</h2>
-      </div>
-    </div>
-    <div class="bg-gradient-to-t from-pink-900 to-purple-500">
-      <div class="flex flex-row max-w-screen-2xl mx-auto grid grid-cols-1 gap-4 pt-16 pb-0">
-        <div class="px-4">
-          <StaticImage
-            src="../images/mob-ties-featured.png"
-            alt="OctoMob Event Hosting"
-            class="rounded-lg border-solid border-2 border-white-400"
-          />
-        </div>
-        <div class="flex mx-auto mt-6">
-          <div class="bg-gradient-to-b from-black to-transparent p-8 border-solid border-2 border-white-400 rounded-lg max-w-screen-xl m-4">
-            <h2 class="uppercase text-5xl pb-4 font-black drop-shadow text-center">Mob Ties AnataCast</h2>
-            <p class="leading-7 text-lg mb-6 text-center">MobTies AnataCast, is OctoMob's new weekly vCast. Come kick it with Hosts & Members of The OctoMob Family, lilbobross and Mad Matty, covering everything crypto, gaming, blockchain tech, decentralized finance, NFT's, & much more. The OctoMob Family being at the center of it all.</p>
-            <p class="leading-7 text-lg mb-6 text-center">As we've been defining & growing our community, we noticed a pattern - those who joined The Family - were leaders/buildors/creators/investors & founders! What better way to continue to attract members, than to support our community & build each other up.</p>
-            <p class="leading-7 text-lg mb-6 text-center">One of the first Honorary members of The OctoMob was DCFGod, Co-Founder of the Anata NFT project. In turn, DCF was our first guest on MobTies, and our defining principles showed through - Supporting The Family.</p>
-            <p class="leading-7 text-lg mb-6 text-center">MobTies will be running on Wednesdays every week. If you are a buildooor, or would like to be on the show, reach out to TheDonFather and we will look to get you on. If you're interested in contributing reach out, we would love to work with you. Let us know, as our guest list is filling up rather quickly.</p>
-            <div class="flex items-center">
-              <div class="mx-auto">
-                <a href="https://www.twitch.tv/videos/1481348381?collection=47fzRHoy7hZWYA" target="_blank" rel="noreferrer" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                  <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
-                    Watch Now
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-4 md:mb-16 mb-4">
-          <div class="flex flex-row max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
-            <div class="items-center text-center">
-              <StaticImage
-                src="../images/profile-lil-bob-ross.png"
-                alt="The DonFather"
-                class="rounded-lg border-solid border-2 border-white-400"
-              />
-              <h2 class="text-center font-light pt-2 text-3xl mt-4">Host</h2>
-              <h3 class="text-center font-extrabold pt-2 mb-4 text-3xl">lilbobross</h3>
-              <a href="https://twitter.com/serbobross" target="_blank" rel="noreferrer" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
-                  Follow Now
-                </span>
-              </a>
-            </div>
-            <div class="items-center text-center">
-              <StaticImage
-                src="../images/profile-mad-matty.png"
-                alt="El Nusserino"
-                class="rounded-lg border-solid border-2 border-white-400"
-              />
-              <h2 class="text-center font-light pt-2 text-3xl mt-4">Co-Host</h2>
-              <h3 class="text-center font-extrabold pt-2 mb-4 text-3xl">Mad Matty</h3>
-              <a href="https://twitter.com/Mad_matty_" target="_blank" rel="noreferrer" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl font-bold">
-                  Follow Now
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <div class="bg-gradient-to-b from-zinc-900 to-black">
       <div class="container mx-auto pt-9 pb-4">
@@ -175,7 +109,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div class="flex md:pb-8">
-      <div class="grid md:grid-cols-3 grid-cols-1 gap-4 mx-auto max-w-screen-2xl p-4">
+      <div class="grid md:grid-cols-2 grid-cols-1 gap-4 mx-auto max-w-screen-2xl p-4">
         <div class="items-center text-center">
           <StaticImage
             src="../images/profile-donfather.png"
@@ -211,7 +145,7 @@ const IndexPage = () => (
       <h2 class="uppercase text-5xl py-8 font-black text-center align-middle">Partnerships</h2>
     </div>
     <div class="container max-w-4xl mx-auto py-6">
-      <div class="grid md:grid-cols-5 grid-cols-2 gap-4">
+      <div class="grid md:grid-cols-4 grid-cols-2 gap-4">
         <div class="item-center">
           <Link
             to={`https://concave.lol`}
@@ -293,18 +227,6 @@ const IndexPage = () => (
             <StaticImage
               src="../images/logo-tracer_dao.png"
               alt="Tracer DAO"
-            />
-          </Link>
-        </div>
-        <div class="item-center">
-          <Link
-            to={`https://vault.cityroots.io/collection/the-octo-mob-family/reviews`}
-            target={`_blank`}
-            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
-          >
-            <StaticImage
-              src="../images/logo-cityroots-vault.png"
-              alt="City Roots Vault"
             />
           </Link>
         </div>

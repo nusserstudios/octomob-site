@@ -47,18 +47,6 @@ function Header({ siteTitle }) {
             </div>
           </Link>
           <Link
-            to={`https://www.twitch.tv/videos/1481348381`}
-            target={`_blank`}
-            className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
-          >
-            <div style={{ maxWidth: `65px`, margin: `0 0.5rem` }}>
-              <StaticImage
-                src="../images/logo-twitch.svg"
-                alt="OctoMob"
-              />
-            </div>
-          </Link>
-          <Link
             to={`https://opensea.io/collection/the-octomob-family`}
             target={`_blank`}
             className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
@@ -83,7 +71,7 @@ function Header({ siteTitle }) {
             </div>
           </Link>
           <Link
-            to={`https://discord.gg/EPNMXpHWsf`}
+            to={`https://discord.gg/vAEthVGM6D`}
             target={`_blank`}
             className="inline-block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
